@@ -1,0 +1,45 @@
+{
+	"name" : "Testovaci level",
+	"objects" : [
+		{
+			"path" : "data/objects/suzanne/suzanne.obj",
+			"pos" : [ 9, 0, 3 ]
+		},
+		{
+			"path" : "engine/objects/box.obj",
+			"pos" : [ 0, 0, 9 ]
+		},
+		{
+			"path" : "data/objects/sponza/sponza.obj",
+			"pos" : [ 0, 0, 0 ]
+		}
+	],
+	"radiosity" : {
+		"map" : "engine/radiosity/default.dds",
+		"resolution" : [ 32, 32 , 16 , 4 ],
+		"add" : {
+			"factor" : 0,
+			"power" : 1
+		},
+		"multiply" : {
+			"factor" : 1,
+			"power" : 1
+		}
+	},
+	"cubemap" : {
+		"pos" : [ 0, 0, 0 ],
+		"size" : [ 32, 32, 32 ]
+	},
+	"sun" : {
+		"color" : [ 1, 1, 1 ],
+		"dir" : [ -0.198, -0.105, -0.975 ]
+	},
+	"fog" : {
+		"color" : [ 1, 1, 1 ],
+		"density" : 0.00390625
+	},
+	"sky" : {
+		"color" : [ 0.4, 0.8, 1 ]
+	},
+	"cascades" : [ 1, 0.5, 0.25, 0.5 ]
+}

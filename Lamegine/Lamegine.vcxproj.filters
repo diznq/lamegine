@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Includes">
+      <UniqueIdentifier>{c6c11248-2a32-421e-bee2-504205c9603c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Vertex">
+      <UniqueIdentifier>{3703ac8e-5455-41a3-8725-7aa2ca662038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Blurs">
+      <UniqueIdentifier>{319889f1-c056-4de1-ab49-cca1835c73e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\PostFx">
+      <UniqueIdentifier>{ac36236a-a178-4e44-ae17-77f4462bac03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Lighting">
+      <UniqueIdentifier>{54389e2f-fd1c-40b2-9e0e-04f3ee5a5f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Tess">
+      <UniqueIdentifier>{8a99ca02-d498-4f64-abb8-d7f0cc3110e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Other">
+      <UniqueIdentifier>{45409c75-94fc-4345-98cb-c39e2dc854b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{529c91ba-968e-4d4c-bea3-e0dbe320f170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{3a9f21d7-59cf-4b05-8a86-bcebf73f0802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameLogics">
+      <UniqueIdentifier>{ee26881c-a3ed-491e-b89d-15ae25808d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Terrain">
+      <UniqueIdentifier>{40f89807-eed2-43b4-8818-f3b911ffd3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\HDR">
+      <UniqueIdentifier>{f770863e-972b-44eb-880d-370b6fc04e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{088412b3-8079-427b-81c4-ec7f85d4f9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scripting">
+      <UniqueIdentifier>{baa18a96-455a-4eab-b77b-8f53182a0e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{e37eb410-e0e6-4ddd-bf04-a61ea9d67127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{a8288b5b-3deb-45b6-bc57-a935a6e814f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{03a4c876-44f2-42e6-81ee-38142aa41963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scripting">
+      <UniqueIdentifier>{be12b1b3-61b6-486b-8e42-11cec746aac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameLogics">
+      <UniqueIdentifier>{f6b5dab8-0944-4df7-ac15-ebc803af6d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{d1763cbf-933d-45dd-ad14-2671fa96df4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{c63b7876-977b-4155-9882-80da81da997f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptSystem.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoader.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogics.cpp">
+      <Filter>Source Files\GameLogics</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawData.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="shared.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorMath.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorMathExt.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptSystem.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JSON.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLoader.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogics.h">
+      <Filter>Header Files\GameLogics</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcurrentQueue.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockingConcurrentQueue.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawData.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\bmp.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\colors.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\wave.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AreaLights.hlsli">
+      <Filter>Resource Files\Includes</Filter>
+    </None>
+    <None Include="FxLibrary.hlsli">
+      <Filter>Resource Files\Includes</Filter>
+    </None>
+    <None Include="Constants.hlsli">
+      <Filter>Resource Files\Includes</Filter>
+    </None>
+    <None Include="Lighting.hlsli">
+      <Filter>Resource Files\Includes</Filter>
+    </None>
+    <None Include="PBR.hlsli">
+      <Filter>Resource Files\Includes</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Pixel.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="Vertex.hlsl">
+      <Filter>Resource Files\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="FrameVertex.hlsl">
+      <Filter>Resource Files\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="Downsample.hlsl">
+      <Filter>Resource Files\Blurs</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthPixel.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="DepthOfField.hlsl">
+      <Filter>Resource Files\Blurs</Filter>
+    </FxCompile>
+    <FxCompile Include="HorizontalBlur.hlsl">
+      <Filter>Resource Files\Blurs</Filter>
+    </FxCompile>
+    <FxCompile Include="VerticalBlur.hlsl">
+      <Filter>Resource Files\Blurs</Filter>
+    </FxCompile>
+    <FxCompile Include="Feedback.hlsl">
+      <Filter>Resource Files\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="Finalize.hlsl">
+      <Filter>Resource Files\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="NoModify.hlsl">
+      <Filter>Resource Files\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="LightingMain.hlsl">
+      <Filter>Resource Files\Lighting</Filter>
+    </FxCompile>
+    <FxCompile Include="LightingTransparent.hlsl">
+      <Filter>Resource Files\Lighting</Filter>
+    </FxCompile>
+    <FxCompile Include="Luminance.hlsl">
+      <Filter>Resource Files\HDR</Filter>
+    </FxCompile>
+    <FxCompile Include="LuminanceDownsample.hlsl">
+      <Filter>Resource Files\HDR</Filter>
+    </FxCompile>
+    <FxCompile Include="TextFrameVertex.hlsl">
+      <Filter>Resource Files\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="TextNoModify.hlsl">
+      <Filter>Resource Files\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="HullShader.hlsl">
+      <Filter>Resource Files\Tess</Filter>
+    </FxCompile>
+    <FxCompile Include="DomainShader.hlsl">
+      <Filter>Resource Files\Tess</Filter>
+    </FxCompile>
+    <FxCompile Include="Kuwahara.hlsl">
+      <Filter>Resource Files\Other</Filter>
+    </FxCompile>
+    <FxCompile Include="SSRColor.hlsl">
+      <Filter>Resource Files\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="SSRPixel.hlsl">
+      <Filter>Resource Files\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="SSAO.hlsl">
+      <Filter>Resource Files\PostFx</Filter>
+    </FxCompile>
+    <FxCompile Include="TerrainVertex.hlsl">
+      <Filter>Resource Files\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="TerrainPixel.hlsl">
+      <Filter>Resource Files\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="ToSphere.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="Tonemap.hlsl">
+      <Filter>Resource Files\HDR</Filter>
+    </FxCompile>
+    <FxCompile Include="Bloom.hlsl">
+      <Filter>Resource Files\HDR</Filter>
+    </FxCompile>
+    <FxCompile Include="Bake.hlsl">
+      <Filter>Resource Files\HDR</Filter>
+    </FxCompile>
+    <FxCompile Include="Irradiance.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,40 @@
+﻿<Window x:Class="LamegineGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LamegineGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1600"
+        Background="#303030" Loaded="Window_Loaded" WindowState="Maximized">
+    <Grid>
+        <Menu Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0">
+            <MenuItem Header="_File"/>
+            <MenuItem Header="_Edit"/>
+            <MenuItem Header="_Help"/>
+        </Menu>
+        <Grid VerticalAlignment="Stretch" Margin="0,23,0,0" Background="Black">
+            <WindowsFormsHost Name="engineWindow" Background="#C0C0C0" Width="1280" Height="720" Margin="10,45,303,10" VerticalAlignment="Top" Grid.Row="0"/>
+            <TabControl HorizontalAlignment="Stretch" Margin="1300,45,9.6,0" VerticalAlignment="Top" Background="#A0A0A0" Height="720" >
+                <TabItem Header="Entities" IsSelected="True">
+                    <Grid>
+                        <TreeView Background="#D0D0D0" Name="tree" HorizontalAlignment="Stretch" Height="405" Margin="0,0,0,0" VerticalAlignment="Top"  Grid.Row="0"/>
+                        <ListView Background="#D0D0D0" Name="details" HorizontalAlignment="Stretch" Height="355" Margin="0,410,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.Row="0">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Attr" DisplayMemberBinding="{Binding Key}"/>
+                                    <GridViewColumn Header="Value" DisplayMemberBinding="{Binding Value}"/>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Environment">
+                    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </Grid>
+</Window>
